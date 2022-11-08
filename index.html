@@ -1,2 +1,142 @@
-<!DOCTYPE html> 
-<h1>hello world</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Layout</title>
+<style>
+.head1 {
+font-size:40px;
+color:#875892;
+font-weight:bold;
+                        text-align: center;
+}
+.head2 {
+font-size:17px;
+margin-left:10px;
+margin-bottom:15px;
+                        text-align: center;
+}
+body {
+margin: 0 auto;
+background-position:center;
+background-size: contain;
+}
+
+.menu {
+           
+            top: 0;
+            width:100%;
+            background-color: #875892;
+            padding:5px 0px 5px 0px;
+            color:white;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+       
+
+
+
+.menu a {
+            width:550px;
+            color: white;
+            text-align: center;
+            padding: 7px 200px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+footer {
+width: 100%;
+bottom: 0px;
+background-color: #875892;
+color: #fff;
+position: absolute;
+padding-top:5px;
+padding-bottom:5px;
+text-align:center;
+font-size:15px;
+font-weight:bold;
+}
+.body_sec {
+margin-left:20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+ 
+}
+</style>
+</head>
+
+<body>
+
+<!-- Header Section -->
+<header>
+<div class="head1">UlumuNiz Charity</div>
+<div class="head2">Aimons Nous Vivant</div>
+</header>
+
+<!-- Menu Navigation Bar -->
+<nav class="menu">
+<a href="#home">About Us</a>
+<a href="#news">Events</a>
+<a href="#notification">Contact Us</a>
+<a href="#Partners">Partners</a>
+</div>
+</nav>
+
+<div class="container">
+     
+     
+      <br>
+
+      <h1>Our Mission statement</h1>
+      <p>Charity Mission information.
+      </p>
+      <br>
+
+      <h1>Missions</h1>
+      <div class="flex-container">
+        <div class="card flex-item">
+          <img loading="lazy" class="zoom" src="img-orphan" src="img/orphans 1.jpg" alt="monitor" style="width: 250px">
+          <h4>HELP AN ORPHAN SMILE</h4>
+         
+         <p>
+            Help lift orphans out of poverty by providing them with regular meals, access to healthcare, new clothes and a place at a school. We help provide a safe environment for every child while equipping them with the tools needed to achieve safety and security while creating a better life for themselves
+          </p>
+          <p><button onclick="myFunction()">Donate Now</button></p>
+        </div>
+
+        <div class="card flex-item">
+          <img loading="lazy" class="zoom" src="img/disabled 2.jpg" alt="Bose QuietComfort Earbuds" style="width: 250px">
+          <h4>HELP IMPROVE THE LIFE OF A DISBLEED PERSON</h4>
+         
+          <p>
+            Exists to improve outcomes for disabled children by providing community-based services and building more inclusive communities, Creating long-term change means helping people living with disabilities to be heard and respected in their community
+          </p>
+          <p><button onclick="myFunction()">Donate Now</button></p>
+        </div>
+       
+<div class="card flex-item">
+          <img loading="lazy" class="zoom" src="img/orphans 1.jpg" alt="home-speaker" style="width: 250px">
+          <h4>Our Aim is to "Keep Them Smiling" for as long as they are here</h4>
+         
+          <p>
+            We reach out to help and empower older people across Africa through local network members. We help older people to have secure income by advocating for pensions and providing livelihoods support, and to have access to the health services they need, Your donation will asist olderly vunrable people especially those in serious poverty or ones with life threatening illness.
+          </p>
+          <p><button onclick="myFunction()">Donate Now</button></p>
+        </div>
+      </div>
+     
+    </div>
+
+</main>
+
+<!-- Footer Section -->
+<footer>
+        <h1>Aimons Nous Vivant</h1>
+        <h3>UlumuNiz Charity</h3>
+
+</footer>
+</body>
+</html>
